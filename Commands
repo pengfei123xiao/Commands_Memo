@@ -13,3 +13,6 @@ i                           编辑
 esc                         退出
 :wq                         保存
 chmod +x [filename]         为file添加可执行权限
+
+强制重启:
+同时按住Crtl+Alt+SysRq，然后依此点击r,e,i,s,u,b（buiser倒过来）
