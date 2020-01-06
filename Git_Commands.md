@@ -1,32 +1,39 @@
 ======Begin======
 
 Step 1: Download repository from GitHub
+
 `git clone https://xxx`
 
 ---------------------------------------------------
 
 Step 2: Check status of modified files.
+
 `git status` # Modified files are in red in this step
 
 ---------------------------------------------------
 
 Step 3: Select files you want to operate.
+
 `git add --all` #
 
 ---------------------------------------------------
 
 Step 4: Check status of modified files again.
+
 `git status` # Modified files are in green in this step
 
 ---------------------------------------------------
 
 Step 5: Commit the changes in local PC with message.
+
 `git commit -m "information"`
 
 ---------------------------------------------------
 
 Step 6: Push the changes to GitHub.
+
 `arc diff` # company requirment
+
 `git push origin master` # You can set branch here
 
 ---------------------------------------------------
@@ -35,15 +42,19 @@ Step 6: Push the changes to GitHub.
 
 Before following steps, check your branch:
 `git branch` (you should be in 'develop' branch)
+
 If not in 'develop' branch, run:
 `git checkout develop`
+
 If no 'develop' branch, create by:
 `git branch develop`
 
 --------------------------------------------------
 
 Step 1: Every time you want to update, first check version.
+
 `git log --oneline`
+
 If the log are not the same, run:
 `git pull origin develop`
 And then check log again:
@@ -52,6 +63,7 @@ And then check log again:
 --------------------------------------------------
 
 Step 2: Repeat Step2-6 in 'Begin' section.
+
 !! Notice: Step6 should be:
 `git push origin develop`
 
