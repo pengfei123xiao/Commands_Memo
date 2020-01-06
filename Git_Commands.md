@@ -1,4 +1,5 @@
 ======Begin======
+
 Step 1: Download repository from GitHub
 `git clone https://xxx`
 
@@ -31,6 +32,7 @@ Step 6: Push the changes to GitHub.
 ---------------------------------------------------
 
 ======Update======
+
 Before following steps, check your branch:
 `git branch` (you should be in 'develop' branch)
 If not in 'develop' branch, run:
