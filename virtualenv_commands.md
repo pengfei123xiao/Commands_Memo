@@ -1,6 +1,7 @@
 ## Analytics Repo dependencies
 1. git clone the repo: `git clone xxxxxxx`
 2. install 'virtualenv' package. `sudo pip install virtualenv`
+for MacOS: `sudo pip install virtualenv --ignore-installed six`
 3. create a virtual environment in `dashboard/python` directory (need to match `.gitignore`): `virtualenv env -p python2.7`
 4. go into the virtual environment: for windows user: `env\Scripts\activate`; for Mac/Linux user: `source env/bin/activate`
 5. run `pip install -U pip wheel; pip install -r requirements.txt` (to install all dependencies)
